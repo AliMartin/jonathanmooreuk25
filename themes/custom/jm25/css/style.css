@@ -15701,7 +15701,7 @@ body.path-frontpage #block-jm25-views-block-news-block-1 .views-row:last-of-type
   color: #d14242;
 }
 
-nav#tbm-main.tbm--mobile {
+nav.tbm--mobile {
   display: none;
 }
 

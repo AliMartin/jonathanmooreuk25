@@ -14290,7 +14290,7 @@ a > .ck-content code {
 .ck-content #block-jm25-mainnavigation .tbm-column-inner a.tbm-link:hover {
   color: #d14242;
 }
-.ck-content nav#tbm-main.tbm--mobile {
+.ck-content nav.tbm--mobile {
   display: none;
 }
 .ck-content #block-jm25-responsivemenumobileicon span.label {
