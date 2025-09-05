@@ -26,7 +26,8 @@
   /* rtl:begin:ignore */
   /* rtl:end:ignore */
   /* rtl:begin:remove */
-  /* rtl:end:remove */ /* Adjust alignment of h1 on certain pages */
+  /* rtl:end:remove */
+  /* Adjust alignment of h1 on certain pages */
   /* Tables */
   /* Individual gallery scroller */
   /* Gallery page view */
@@ -13706,6 +13707,7 @@ a > .ck-content code {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 15px;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
 }
 .ck-content main .region-content a {
   border-bottom: 1px dotted #b49f9d;
@@ -14123,6 +14125,7 @@ a > .ck-content code {
   border: inherit;
   border-radius: inherit;
   box-shadow: inherit;
+  backdrop-filter: inherit;
 }
 .ck-content body.path-frontpage .splide--skin--fullscreen {
   z-index: -1;
@@ -14165,6 +14168,7 @@ a > .ck-content code {
   border-radius: 15px;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.85);
   text-align: center;
+  backdrop-filter: blur(5px);
 }
 .ck-content body.path-frontpage #home-page-talents img {
   width: 260px;
@@ -14193,6 +14197,7 @@ a > .ck-content code {
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-radius: 15px;
   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(5px);
 }
 .ck-content body.path-frontpage #block-jm25-views-block-news-block-1 h2, .ck-content body.path-frontpage #block-jm25-views-block-news-block-1 .h2 {
   text-align: center;
