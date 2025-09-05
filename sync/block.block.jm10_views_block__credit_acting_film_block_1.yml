@@ -1,0 +1,33 @@
+uuid: 0b419103-ce36-4577-b4cf-53455a0d488a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.credit_acting_film
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: credit
+id: jm10_views_block__credit_acting_film_block_1
+theme: jm10
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:credit_acting_film-block_1'
+settings:
+  id: 'views_block:credit_acting_film-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /credits

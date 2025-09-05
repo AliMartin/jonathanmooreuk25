@@ -1,0 +1,33 @@
+uuid: e7fe27cc-4881-459e-9851-5af6087acf32
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.credit_writer
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: credit
+id: jm10_views_block__credit_writer_block_1
+theme: jm10
+region: content
+weight: -4
+provider: null
+plugin: 'views_block:credit_writer-block_1'
+settings:
+  id: 'views_block:credit_writer-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /credits

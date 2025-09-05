@@ -1,0 +1,29 @@
+uuid: d894f517-17e2-486f-9110-35d2530e5e11
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.writer_reviews_menu
+  module:
+    - system
+    - views
+  theme:
+    - jm10
+id: jm10_views_block__writer_reviews_menu_block_1
+theme: jm10
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'views_block:writer_reviews_menu-block_1'
+settings:
+  id: 'views_block:writer_reviews_menu-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/writer\r\n/review/writer/*"

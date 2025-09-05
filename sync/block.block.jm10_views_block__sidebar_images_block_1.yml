@@ -1,0 +1,39 @@
+uuid: 60a392e9-9942-4312-8cf6-8262824724ef
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.sidebar_images
+  module:
+    - block_class
+    - node
+    - views
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: sidebar-images
+id: jm10_views_block__sidebar_images_block_1
+theme: jm10
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:sidebar_images-block_1'
+settings:
+  id: 'views_block:sidebar_images-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      article: article
+      review: review
+      testimonial: testimonial

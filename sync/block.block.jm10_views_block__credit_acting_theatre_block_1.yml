@@ -1,0 +1,33 @@
+uuid: a66fca44-13a7-4227-a2f5-71edb4274abf
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.credit_acting_theatre
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: credit
+id: jm10_views_block__credit_acting_theatre_block_1
+theme: jm10
+region: content
+weight: -9
+provider: null
+plugin: 'views_block:credit_acting_theatre-block_1'
+settings:
+  id: 'views_block:credit_acting_theatre-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /credits

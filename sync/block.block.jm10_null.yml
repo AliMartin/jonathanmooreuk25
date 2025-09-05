@@ -1,0 +1,26 @@
+uuid: 66303af5-ad0b-4bb9-adc3-f41df27e3e64
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:9a6f4f15-26ba-4c72-9170-778d0d8a67a6'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - jm10
+id: jm10_null
+theme: jm10
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:9a6f4f15-26ba-4c72-9170-778d0d8a67a6'
+settings:
+  id: 'block_content:9a6f4f15-26ba-4c72-9170-778d0d8a67a6'
+  label: 'Null'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: b817f3c0-341c-4702-bb03-41a769637ce5
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:201d98a3-0578-4663-adae-12c25c09d801'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: hyperluminal
+id: jm10_hyperluminal
+theme: jm10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:201d98a3-0578-4663-adae-12c25c09d801'
+settings:
+  id: 'block_content:201d98a3-0578-4663-adae-12c25c09d801'
+  label: Hyperluminal
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

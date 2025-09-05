@@ -1,0 +1,45 @@
+node_search:
+  path: node
+  search: true
+  advanced:
+    visibility: true
+    collapsible: true
+    collapsed: true
+    criteria:
+      or: or
+      phrase: phrase
+      negative: negative
+    types:
+      article: article
+      page: page
+      testimonial: testimonial
+      slideshow: slideshow
+      review: review
+      credit: credit
+      full_width: full_width
+      gallery: gallery
+      news: news
+      video: video
+    languages:
+      en: en
+      und: und
+      zxx: zxx
+  info:
+    type: type
+    user: user
+    date: date
+    comment: comment
+  filter:
+    position: disabled
+    label: 'Filter the results'
+    any: '- Any -'
+user_search:
+  advanced:
+    types:
+      slideshow: slideshow
+      review: review
+      credit: credit
+      full_width: full_width
+      gallery: gallery
+      news: news
+      video: video

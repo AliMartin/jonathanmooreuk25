@@ -1,0 +1,22 @@
+uuid: b88bceb8-4440-490c-be31-2d650f0812d2
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - jm10
+_core:
+  default_config_hash: qImXC2bPPweNrE3_FB2Zalt-3mWictCi4kruDQCEKKk
+id: jm10_help
+theme: jm10
+region: help
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

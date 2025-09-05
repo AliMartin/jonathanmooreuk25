@@ -1,0 +1,20 @@
+uuid: 37c46fcf-6159-4b79-8891-9a4b057cecb2
+langcode: en
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - jm10
+id: jm10_responsivemenumobileicon
+theme: jm10
+region: top_left
+weight: 0
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

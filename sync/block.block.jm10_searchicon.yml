@@ -1,0 +1,29 @@
+uuid: c953015b-31fa-4222-a684-530c754528f7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0e48144f-db67-43ab-86a0-c6b36dba021c'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: search-icon
+id: jm10_searchicon
+theme: jm10
+region: top_right
+weight: 0
+provider: null
+plugin: 'block_content:0e48144f-db67-43ab-86a0-c6b36dba021c'
+settings:
+  id: 'block_content:0e48144f-db67-43ab-86a0-c6b36dba021c'
+  label: 'Search icon'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

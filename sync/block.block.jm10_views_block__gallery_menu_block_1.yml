@@ -1,0 +1,29 @@
+uuid: 8a94528d-8ce8-43fd-90bd-c709ee7b0b8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.gallery_menu
+  module:
+    - system
+    - views
+  theme:
+    - jm10
+id: jm10_views_block__gallery_menu_block_1
+theme: jm10
+region: sidebar_first
+weight: -8
+provider: null
+plugin: 'views_block:gallery_menu-block_1'
+settings:
+  id: 'views_block:gallery_menu-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/gallery/*'

@@ -1,0 +1,34 @@
+uuid: 380de414-d7a3-4f1c-b104-3b07826bab01
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5e81c668-a2f4-438f-b021-4563dc3be5e2'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: credit
+id: jm10_creditfooter
+theme: jm10
+region: content
+weight: -1
+provider: null
+plugin: 'block_content:5e81c668-a2f4-438f-b021-4563dc3be5e2'
+settings:
+  id: 'block_content:5e81c668-a2f4-438f-b021-4563dc3be5e2'
+  label: 'Credit footer'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /credits

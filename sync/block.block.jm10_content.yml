@@ -1,0 +1,22 @@
+uuid: 83ebc5f5-8969-4009-aec5-8c7eb9e8d157
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - jm10
+_core:
+  default_config_hash: SPiwTgD80hzEx6GUWM7bmpNW5dbIqOmwJ2u8X-xkeBA
+id: jm10_content
+theme: jm10
+region: content
+weight: -10
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

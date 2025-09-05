@@ -1,0 +1,29 @@
+uuid: d0e87abc-c337-4638-a67e-d5e9f91e6b7d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.actor_reviews_menu
+  module:
+    - system
+    - views
+  theme:
+    - jm10
+id: jm10_views_block__actor_reviews_menu_block_2
+theme: jm10
+region: sidebar_first
+weight: -15
+provider: null
+plugin: 'views_block:actor_reviews_menu-block_2'
+settings:
+  id: 'views_block:actor_reviews_menu-block_2'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: "/actor\r\n/review/actor/*"

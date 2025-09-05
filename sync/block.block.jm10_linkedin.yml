@@ -1,0 +1,30 @@
+uuid: b38b7ef6-ffd5-447a-951c-c2a1a25dfca9
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:2530d66c-f4b6-44a8-aa1d-54067c1dccbf'
+  module:
+    - block_content
+    - system
+  theme:
+    - jm10
+id: jm10_linkedin
+theme: jm10
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'block_content:2530d66c-f4b6-44a8-aa1d-54067c1dccbf'
+settings:
+  id: 'block_content:2530d66c-f4b6-44a8-aa1d-54067c1dccbf'
+  label: LinkedIn
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

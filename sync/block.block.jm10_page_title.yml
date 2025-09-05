@@ -1,0 +1,20 @@
+uuid: 3ead39d6-5bf3-4362-a845-5728a48f3ea9
+langcode: en
+status: true
+dependencies:
+  theme:
+    - jm10
+_core:
+  default_config_hash: 96zeWMcvg5rSzdLHsta9ngXBX8qCloS812jQieGZFa4
+id: jm10_page_title
+theme: jm10
+region: header
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

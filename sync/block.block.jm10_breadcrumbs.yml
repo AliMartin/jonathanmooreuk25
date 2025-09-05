@@ -1,0 +1,20 @@
+uuid: 2652e209-7182-41f8-88d5-70c863ecec5c
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - jm10
+id: jm10_breadcrumbs
+theme: jm10
+region: header
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,29 @@
+uuid: 4faeb085-6238-4393-a739-3042cfe39434
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7460b812-8349-4011-8e94-13913853350e'
+  module:
+    - block_class
+    - block_content
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: site-title-block
+id: jm10_sitetitle
+theme: jm10
+region: top_middle
+weight: 0
+provider: null
+plugin: 'block_content:7460b812-8349-4011-8e94-13913853350e'
+settings:
+  id: 'block_content:7460b812-8349-4011-8e94-13913853350e'
+  label: 'Site title'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

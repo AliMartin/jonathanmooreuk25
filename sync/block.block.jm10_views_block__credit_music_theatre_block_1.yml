@@ -1,0 +1,33 @@
+uuid: a1abd8e4-2e76-430c-a93c-67a4933a7bb6
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.credit_music_theatre
+  module:
+    - block_class
+    - system
+    - views
+  theme:
+    - jm10
+third_party_settings:
+  block_class:
+    classes: credit
+id: jm10_views_block__credit_music_theatre_block_1
+theme: jm10
+region: content
+weight: -2
+provider: null
+plugin: 'views_block:credit_music_theatre-block_1'
+settings:
+  id: 'views_block:credit_music_theatre-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /credits

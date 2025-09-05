@@ -1,0 +1,32 @@
+uuid: f2dd278b-6daf-4759-bc9f-1543cebdd526
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.testimonials_menu
+  module:
+    - node
+    - views
+  theme:
+    - jm10
+id: jm10_views_block__testimonials_menu_block_2
+theme: jm10
+region: sidebar_first
+weight: -11
+provider: null
+plugin: 'views_block:testimonials_menu-block_2'
+settings:
+  id: 'views_block:testimonials_menu-block_2'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      testimonial: testimonial
